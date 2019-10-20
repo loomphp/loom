@@ -43,7 +43,10 @@
     "autoload-dev": {
         "psr-4": {
             "LoomTest\\": "tests"
-        }
+        },
+        "files": [
+            "tests/Runner/TestAsset/SapiResponse.php"
+        ]
     },
     "config": {
         "sort-packages": true
