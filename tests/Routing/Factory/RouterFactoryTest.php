@@ -5,13 +5,13 @@ declare(strict_types=1);
 namespace LoomTest\Routing;
 
 use Loom\Router\Router;
+use Loom\Routing\Factory\RouterFactory;
 use PHPUnit\Framework\TestCase;
 use Psr\Container\ContainerInterface;
-use Loom\Routing\factory\RouterFactory;
 
 class RouterFactoryTest extends TestCase
 {
-    /** @var FastRouteRouterFactory */
+    /** @var RouterFactory */
     private $factory;
 
     private $container;
